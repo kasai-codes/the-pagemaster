@@ -21,7 +21,7 @@ const SavedBooks = () => {
     if (!token) {
       return false;
     }
-
+// when user clicks remove book button then try and create an object with a "varibles" property that stores an object that represents each needed varible for this request.
     try {
      
       const { data } = await removeBook({
